@@ -8,6 +8,7 @@ TagManager:
   - Animals
   - Enemy
   - Boarder
+  - Harvest
   layers:
   - Default
   - TransparentFX
