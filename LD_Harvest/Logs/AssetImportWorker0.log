@@ -179,3 +179,85 @@ Received Import Request.
   path: Assets/art
   artifactKey: Guid(952e60ba1c44f8c40816668ffeb363de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/art using Guid(952e60ba1c44f8c40816668ffeb363de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d43c5106d27e680e2b45af05d98bfc') in 0.013365 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008681 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pokem\OneDrive\Documents\GitHub\harvest_jam_2022\LD_Harvest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pokem\OneDrive\Documents\GitHub\harvest_jam_2022\LD_Harvest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1357ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (525ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4530.
+Memory consumption went from 150.7 MB to 150.7 MB.
+Total: 4.094200 ms (FindLiveObjects: 0.402000 ms CreateObjectMapping: 0.306100 ms MarkObjects: 3.339300 ms  DeleteObjects: 0.044800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.607887 seconds.
+  path: Assets/art/dirt.png
+  artifactKey: Guid(81804f7ac442525438f400f481cc7804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/dirt.png using Guid(81804f7ac442525438f400f481cc7804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b58ec7a1b99c6f42a49a4dc77bd865') in 0.160853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/art/harvest_scarecrow.gif
+  artifactKey: Guid(a7fa93edc175a8c41a1ac9998eefb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/harvest_scarecrow.gif using Guid(a7fa93edc175a8c41a1ac9998eefb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50a0067975258cfac092128d39566fb') in 0.039595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/art/harvest_squirrel.png
+  artifactKey: Guid(24a4b57d615bfc643a28e4789125392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/harvest_squirrel.png using Guid(24a4b57d615bfc643a28e4789125392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1177bcbca3143ee13cec97c9300ae64e') in 0.034300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art/harvest_pumpkinfinal.png
+  artifactKey: Guid(7b986fd129d44e64ab74987e7ac33f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/harvest_pumpkinfinal.png using Guid(7b986fd129d44e64ab74987e7ac33f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb59b727f221632cdeb44d3d119490bb') in 0.029926 seconds 
