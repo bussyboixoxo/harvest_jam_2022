@@ -12,6 +12,7 @@ public bool goingDown;
 
 public float boardHeight = 8;
 public float boardWidth = 14;
+public bool notPaused = true;
 
 private Animator anim;
 
@@ -24,26 +25,36 @@ void Start()
 }
 void Update()
 {
-    if(transform.position.y + 1 >= boardHeight/2) //hits top
-    {
-        FlipDirection();
-    }
-    if(transform.position.y - 1 <= -boardHeight/2) //hits bottom
-    {
-        FlipDirection();
-    }
-    if(transform.position.x + 1 >= boardWidth/2) //hits right
-    {
-        FlipDirection();
-    }
-    if(transform.position.x - 1 <= -boardWidth/2) //hits left
-    {
-        FlipDirection();
-    }
+    
 }
 
 public void Move()
 {
+    if(notPaused)
+    {
+        if(transform.position.y  > boardHeight/2) //hits top
+    {
+        anim.SetBool("isDead", true);
+        GameObject.Destroy(gameObject,.25f);
+        
+    }
+    if(transform.position.y  < -boardHeight/2) //hits bottom
+    {
+        anim.SetBool("isDead", true);
+        GameObject.Destroy(gameObject,.25f);
+        
+    }
+    if(transform.position.x  > boardWidth/2) //hits right
+    {
+        anim.SetBool("isDead", true);
+        GameObject.Destroy(gameObject ,.25f);
+        
+    }
+    if(transform.position.x  < -boardWidth/2) //hits left
+    {
+        anim.SetBool("isDead", true);
+        GameObject.Destroy(gameObject, .25f);
+    }
     
     if(goingLeft)
     {
@@ -64,7 +75,9 @@ public void Move()
     {
         transform.position -= new Vector3(0, moveSpeed, 0);
         anim.SetTrigger("move");
-    }  
+    }
+    }
+      
     
 }
 
@@ -76,7 +89,7 @@ public void GetFruit(float points)
 }
 
 
-public void FlipDirection()
+/*public void FlipDirection()
 {
     if(goingUp)
     {
@@ -89,9 +102,9 @@ public void FlipDirection()
         goingDown = false;
     }
     if(goingRight)
-    {
-        goingRight = false;
+    {   
         goingLeft = true;
+        goingRight = false;
     }
     if(goingLeft)
     {
@@ -100,16 +113,7 @@ public void FlipDirection()
     }
 }
 
-
-
-
-
-
-
-
-
-
-
+*/
 
 }
 

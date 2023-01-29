@@ -11,7 +11,7 @@ public class Fruit : MonoBehaviour
         if(col.tag == "Animals")
         {
             col.GetComponent<MoveScript>().GetFruit(fruitPoints);
-            col.GetComponent<MoveScript>().FlipDirection();
+            //col.GetComponent<MoveScript>().FlipDirection();
             gameObject.SetActive(false);
             
         }
